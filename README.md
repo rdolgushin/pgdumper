@@ -29,10 +29,8 @@ Usage
                     database
     $ pgdumper -u john -p secret -m 10 -M 3 test_db
 
-If you will use pgdumper installed with pip and virtualenv in crontab file
-it will looks like following example:
+Crontab example:
 
-    # Crontab
     0 */1 * * * * /home/john/.virtualenvs/default/bin/pgdumper -u john -m 10 -M 3 test_db
 
 See also
